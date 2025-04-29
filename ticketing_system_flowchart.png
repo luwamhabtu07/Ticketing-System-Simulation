@@ -1,0 +1,23 @@
+[Start]
+   ↓
+[Prompt for number of tickets]
+   ↓
+[Loop: Generate ticket with number + timestamp]
+   ↓
+[Add ticket to queue]
+   ↓
+[All tickets generated?] ─No─┐
+          ↑                 ↓
+         Yes              [Wait Random Time]
+   ↓
+[Loop: Process ticket from queue]
+   ↓
+[Display ticket info]
+   ↓
+[Wait Random Time]
+   ↓
+[All tickets served?] ─No─┐
+          ↑               ↓
+         Yes           [Loop Again]
+   ↓
+[End]
